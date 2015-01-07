@@ -73,6 +73,27 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_3L2.bin:system/vendor/firmware/setfile_3L2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/setfile_imx135.bin:system/vendor/firmware/setfile_imx135.bin \
+  vendor/samsung/ha3g/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000003.tlbin:system/app/mcRegistry/ffffffff000000000000000000000003.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000007.tlbin:system/app/mcRegistry/ffffffff000000000000000000000007.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000008.tlbin:system/app/mcRegistry/ffffffff000000000000000000000008.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000009.tlbin:system/app/mcRegistry/ffffffff000000000000000000000009.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000010.tlbin:system/app/mcRegistry/ffffffff000000000000000000000010.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000011.tlbin:system/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
   vendor/samsung/ha3g/proprietary/bin/scranton_RD:system/bin/scranton_RD \
   vendor/samsung/ha3g/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
   vendor/samsung/ha3g/proprietary/lib/hw/sensorhubs.universal5420.so:system/lib/hw/sensorhubs.universal5420.so \
