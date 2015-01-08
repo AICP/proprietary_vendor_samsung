@@ -46,6 +46,9 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4339_wisol.hcd:system/vendor/firmware/bcm4339_wisol.hcd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0055.0254_ORC_H-LTE.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0055.0254_ORC_H-LTE.hcd \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+  vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
   vendor/samsung/ha3g/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
