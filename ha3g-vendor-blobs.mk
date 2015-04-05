@@ -30,23 +30,14 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
   vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
-  vendor/samsung/ha3g/proprietary/csc/sales_code.dat:system/csc/sales_code.dat \
   vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
   vendor/samsung/ha3g/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_wisol.hcd:system/vendor/firmware/bcm4335_wisol.hcd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0091.0405_wisol.hcd:system/vendor/firmware/bcm4335_V0091.0405_wisol.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4339_A0.hcd:system/vendor/firmware/bcm4339_A0.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4339_semco.hcd:system/vendor/firmware/bcm4339_semco.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4339_wisol.hcd:system/vendor/firmware/bcm4339_wisol.hcd \
-  vendor/samsung/ha3g/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0055.0254_ORC_H-LTE.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0055.0254_ORC_H-LTE.hcd \
+  vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400.hcd:system/vendor/firmware/bcm4335_V0093.0400.hcd \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-  vendor/samsung/ha3g/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
@@ -90,13 +81,17 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000010.tlbin:system/app/mcRegistry/ffffffff000000000000000000000010.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000011.tlbin:system/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffff000000000000000000000018.tlbin:system/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
   vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+  vendor/samsung/ha3g/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
   vendor/samsung/ha3g/proprietary/bin/scranton_RD:system/bin/scranton_RD \
   vendor/samsung/ha3g/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
   vendor/samsung/ha3g/proprietary/lib/hw/sensorhubs.universal5420.so:system/lib/hw/sensorhubs.universal5420.so \
