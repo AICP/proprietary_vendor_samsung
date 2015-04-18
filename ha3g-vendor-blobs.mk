@@ -39,6 +39,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
   vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
+  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
   vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
   vendor/samsung/ha3g/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
