@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+  vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Core.so:system/lib/omx/libExynosOMX_Core.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
