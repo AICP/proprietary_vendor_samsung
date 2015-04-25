@@ -30,6 +30,13 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
   vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
+  vendor/samsung/ha3g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+  vendor/samsung/ha3g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+  vendor/samsung/ha3g/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
+  vendor/samsung/ha3g/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+  vendor/samsung/ha3g/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
+  vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
+  vendor/samsung/ha3g/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so \
   vendor/samsung/ha3g/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
   vendor/samsung/ha3g/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
