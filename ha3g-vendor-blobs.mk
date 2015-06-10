@@ -46,9 +46,9 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
   vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
-  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
   vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
+  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
   vendor/samsung/ha3g/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
@@ -59,6 +59,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+  vendor/samsung/ha3g/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+  vendor/samsung/ha3g/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+  vendor/samsung/ha3g/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+  vendor/samsung/ha3g/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
@@ -71,6 +75,27 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/bin/gpsd:system/bin/gpsd \
   vendor/samsung/ha3g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/samsung/ha3g/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+  vendor/samsung/ha3g/proprietary/bin/lpm:system/bin/lpm \
+  vendor/samsung/ha3g/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+  vendor/samsung/ha3g/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
+  vendor/samsung/ha3g/proprietary/media/battery_error.spi:system/media/battery_error.spi \
+  vendor/samsung/ha3g/proprietary/media/battery_low.spi:system/media/battery_low.spi \
+  vendor/samsung/ha3g/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
+  vendor/samsung/ha3g/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
+  vendor/samsung/ha3g/proprietary/media/bootsamsung.qmg:system/media/bootsamsung.qmg \
+  vendor/samsung/ha3g/proprietary/media/bootsamsungloop.qmg:system/media/bootsamsungloop.qmg \
+  vendor/samsung/ha3g/proprietary/media/bootsamsungmini.qmg:system/media/bootsamsungmini.qmg \
+  vendor/samsung/ha3g/proprietary/media/bootsamsungminiloop.qmg:system/media/bootsamsungminiloop.qmg \
+  vendor/samsung/ha3g/proprietary/media/dock_error.spi:system/media/dock_error.spi \
+  vendor/samsung/ha3g/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
+  vendor/samsung/ha3g/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
+  vendor/samsung/ha3g/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
+  vendor/samsung/ha3g/proprietary/media/percentage.spi:system/media/percentage.spi \
+  vendor/samsung/ha3g/proprietary/media/shutdown.qmg:system/media/shutdown.qmg \
+  vendor/samsung/ha3g/proprietary/media/shutdown.qmg.cover:system/media/shutdown.qmg.cover \
+  vendor/samsung/ha3g/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
+  vendor/samsung/ha3g/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
+  vendor/samsung/ha3g/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2_3L2.bin:system/vendor/firmware/fimc_is_fw2_3L2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/fimc_is_fw2.bin:system/vendor/firmware/fimc_is_fw2.bin \
   vendor/samsung/ha3g/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
