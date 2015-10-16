@@ -45,10 +45,18 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm4335_V0093.0400.hcd:system/vendor/firmware/bcm4335_V0093.0400.hcd \
   vendor/samsung/ha3g/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
   vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+  vendor/samsung/ha3g/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/ha3g/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-  vendor/samsung/ha3g/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
   vendor/samsung/ha3g/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
   vendor/samsung/ha3g/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
   vendor/samsung/ha3g/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
@@ -56,20 +64,47 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/samsung/ha3g/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+  vendor/samsung/ha3g/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-  vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
   vendor/samsung/ha3g/proprietary/lib/libcsc.so:system/lib/libcsc.so \
   vendor/samsung/ha3g/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
   vendor/samsung/ha3g/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
   vendor/samsung/ha3g/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
   vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+  vendor/samsung/ha3g/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+  vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+  vendor/samsung/ha3g/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+  vendor/samsung/ha3g/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxvencsw.so:system/lib/libsomxvencsw.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+  vendor/samsung/ha3g/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+  vendor/samsung/ha3g/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+  vendor/samsung/ha3g/proprietary/lib/egl/libsomxaace.so:system/lib/egl/libsomxaace.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
   vendor/samsung/ha3g/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
   vendor/samsung/ha3g/proprietary/bin/gpsd:system/bin/gpsd \
