@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serrano-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/serrano-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/serrano-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
-    vendor/samsung/serrano-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/samsung/serrano-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/samsung/serrano-common/proprietary/lib/libchromatix_imx175_antishake.so:system/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/serrano-common/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
